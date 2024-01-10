@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Read the data
-df = pd.read_csv("C:/Users/ali10/OneDrive/Desktop/Task-02/country_population.csv")
+df = pd.read_csv("country_population.csv")
 
 # Select specific countries
 selected_countries = df[df['Country Name'].isin(['Russia', 'Germany', 'United Kingdom', 'France', 'Italy', 'Spain', 'Ukraine'])]
